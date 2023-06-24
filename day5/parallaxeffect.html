@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Effect Demo</title>
+    <style>
+        .parallax{
+            background-image: url(ocean-3605547_1280.jpg);
+            min-height: 800px;
+            background-position: center;
+            width:100%;
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: repeat;
+        }
+        .antDiv{
+            background-color: burlywood;
+            height: 450px;
+            font-size: 34px;
+            font-style: oblique;
+            text-align: center;
+            color:rgb(79, 198, 238);
+            background-image: linear-gradient(rgba(227, 219, 148, 0.403),  rgba(35, 213, 192, 0.746), rgba(213, 162, 35, 0.403));
+        }
+        .next{
+            background-image: url(ocean-3605547_1280.jpg);
+        }
+    </style>
+</head>
+<body bgcolor="#212121"> 
+    <div class="parallax"></div>
+    <div class="antDiv">
+        Demo for Parallax Effect.
+    </div>
+    <div class="parallax next"></div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ListHover</title>
+    <style>
+        body{
+            font-size: 34px;
+        }
+        body ul li ul li {display: none;}
+        body ul li:hover ul li{display: block;}
+        body ul li:hover ul li ul li {display: none;} 
+        body ul li ul li:hover ul li {display: block;}
+        body ul li ul li:hover ul li ul {display: none;}
+        body ul li ul li ul li:hover ul { display: block;} 
+    </style>
+</head>
+<body bgcolor="light blue">
+    <ul>
+        <li>Google
+            <ul>
+                <li> Gmail
+                    <ul>
+                        <li>Sign Up</li>
+                        <li>Sign In
+                            <ul>
+                                <li>Sign in As  Admin </li>
+                                <li>Sign in As  Member </li>
+                            </ul> 
+                        </li>
+                     </ul>   
+                </li>
+                <li>Search Engine</li>
+                <li>Cloud</li>
+                <li>AI Tools</li>
+            </ul>
+        </li>
+        <li>bat
+            <ul>
+                <li>ball</li>
+                <li>football
+                    <ul>
+                        <li>stump
+                            <ul>
+                                <li>bat</li>
+                                <li>ball</li>
+                            </ul>
+                        </li>
+                        <li>iMac</li>
+                        <li>Mac mini</li>
+                        <li>Mac Pro</li>
+                    </ul>    
+                </li>
+                <li>Ipad</li>
+                <li>iWatch</li>
+                <li>Airpods</li>
+            </ul>
+        </li>
+        <li>MDN</li>
+        <li>Amazon
+            <ul>
+                <li>Cloud</li>
+                <li>E-commerce
+                    <ul>
+                        <li>Electrical items</li>
+                        <li>household items</li>
+                        <li>Clothes</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+</body>
+</html>
