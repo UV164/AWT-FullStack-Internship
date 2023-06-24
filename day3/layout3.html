@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Layout3</title>
+        <style>
+            *{
+                font-size: 30px;
+                font-style: oblique;
+                text-align: center;
+            }
+            .r1{
+                background-color: rgb(130, 192, 243);
+                height: 50px;
+            }
+            #r2{
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            #r2c1{
+                height: 400px;
+                width: 49%;
+                background-color: rgb(130, 192, 243);
+                float: left;
+            }
+            #r2c2{
+                height: 400px;
+                width: 50%;
+                float: right;
+                padding-top: 0px;
+            }
+            #r2c2row1{
+                height: 48.5%;
+                background-color: rgb(130, 192, 243);
+            }
+            #r2c2row2{
+                height: 48.5%;
+                margin-top: 1.5%;
+                background-color: rgb(130, 192, 243);
+            }
+            .r3{
+                background-color: rgb(130, 192, 243);
+                height: 50px;
+                margin-top: 400px;
+            }
+        </style>
+    
+    </head>
+    <body>
+
+        <div class="r1">LOGO</div>
+        <div id="r2">
+            <div id="r2c1">SIDEBAR</div>
+            <div id="r2c2">
+                <div id="r2c2row1">HEADER</div>
+                <div id="r2c2row2">BODY</div>
+            </div>
+        </div>
+        <div class="r3">FOOTER</div>
+
+    </body>
+</html>
