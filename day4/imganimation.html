@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Hover</title>
+    <style>
+        .container-img{
+            position: relative;
+        }
+        .image{
+            display: block;
+            transition: 3s;
+        }
+        .overlay{
+            position: absolute;
+            top:0;
+            bottom:0;
+            left: 0;
+            right: 0;
+            height: 50px;
+            opacity: 0;
+            transition: 2s;
+            background-color: rgb(131, 193, 240);
+        }
+
+        .container-img:hover .overlay{
+            opacity: 1;
+        }
+
+        .container-img:hover .image{
+            transform: translate(400px, 300px) rotate(360deg);
+        }
+        
+        .text{
+            color: white;
+            font-size: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+    </style>
+</head>
+<body bgcolor="#e8e8e8">
+    <h2>Image Overlay Effect</h2>
+    <div class="container-img">
+        <img src="littlekrishnaimage01-46f458de76.jpg" alt="little krishna" class="image">
+        <div class="overlay">
+            <div class="text">Image Overlay Effect</div>
+        </div>
+    </div>
+    
+</body>
+</html>

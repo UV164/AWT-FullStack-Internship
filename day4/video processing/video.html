@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video-Positioning</title>
+    <style>
+        .vid{
+            overflow: hidden;
+            position: fixed;
+            top:0;
+            right: 0;
+            left: 0;
+            z-index: -1;
+        }
+        video{
+            width: 30%;
+            height: 30%;
+            position: fixed;
+            width: auto;
+            height: auto;
+            min-width: 30%;
+            min-height: 30%;
+        }
+        h3{
+            background-color: rgb(190, 202, 26);
+        }
+    </style>
+</head>
+<body>
+    <div class="vid">
+        <video autoplay loop muted src="Veed Iceland 6.mp4"></video>
+    </div>
+    
+    <h3> this is an example for z-index</h3>
+    
+    <h3>In CSS</h3>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Img Animation Hover</title>
+    <style>
+        .container-img{
+            position: relative;
+        }
+        .image{
+            display: block;
+        }
+        .overlay{
+            position:absolute;
+            top:80px;
+            left:340px;
+            right:0;
+            bottom:0;
+            height:200px;
+            width:300px;
+            opacity:0;
+            transition: 1s;
+            background-color: burlywood;
+        }
+
+        .container-img:hover .overlay{
+            opacity:1;
+        }
+        .container-img:hover .image{
+            opacity:0.5;
+        }
+        .text{
+            color:white;
+            font-size: 20px;
+            position: absolute;
+            top:25%;
+            left:0%;
+            text-align: center;
+        }
+    </style>
+</head>
+<body bgcolor="#67675c">
+    <div class="container-img">
+        <img src="littlekrishnaimage01-46f458de76.jpg" alt="krishna" class="image">
+        <div class="overlay">
+            <div class="text">Krishna recommends the guru-disciple system—parampara—as the most reliable means of passing down spiritual knowledge.</div>
+        </div>
+    </div>
+</body>
+</html>

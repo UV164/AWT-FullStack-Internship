@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transforms</title>
+    <style>
+        div{
+            color:red;
+            background-color: aquamarine;
+            height: 100px;
+            width: 100px;
+            margin: 1%;
+            transition-duration: 3s;
+            text-align: center;
+        }
+        .translt:hover{
+            transform: translate(100px, 100px);
+            background-color: cadetblue;
+        }
+        .rot:hover{
+            transform:rotate(170deg);
+        }
+        .sclx:hover{
+            transform: scaleX(2);
+        }
+        .scly:hover{
+            transform: scaleY(2);
+        }
+        .scl:hover{
+            transform: scale(2,5);
+            background-color: rgb(130, 192, 243);
+        }
+        .Skw:hover{
+            transform: skew(20deg);
+            background-color: rgb(130, 192, 243);
+        }
+        .Rot3d:hover{
+            transform: rotate3d(0,0,1,460deg);
+            background-color: rgb(130, 192, 243);
+        }
+        .rad{
+            border-radius: 50%;
+            transition-duration: 0.3s;
+        }
+        .rad:hover{
+            transform: rotateY(360deg);
+            background-color: rgb(130, 192, 243);
+        }
+        .opac:hover{
+            opacity: 3%;
+            background-color: rgb(130, 192, 243);
+        }
+        .rot1:hover{
+            transform: rotate3d(0,6,1,460deg);
+            background-color: rgb(130, 192, 243);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="translt">Box1</div>
+    <div class="rot">Box1</div>
+    <div class="sclx">Box1</div>
+    <div class="scly">Box1</div>
+    <div class="scl">Box1</div>
+    <div class="Skw">Box1</div>
+    <div class="Rot3d">Box1</div>
+    <div class="rad">Box1</div>
+    <div class="opac">Box1</div>
+    <div class="rot1">Box1</div>
+
+</body>
+</html>
