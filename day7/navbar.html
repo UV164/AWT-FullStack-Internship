@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      #wrap {
+        width: 30%;
+        height: 50px;
+        margin: 0;
+        z-index: 99;
+        position: relative;
+        background-color: #444444;
+      }
+      .navbar {
+        height: 50px;
+        padding: 0;
+        margin: 0;
+        position: fixed;
+      }
+      .navbar li {
+        height: auto;
+        width: 135px;
+        float: left;
+        text-align: center;
+        list-style: none;
+        font: normal bold 13px/1em Arial, Verdana, Helvetica;
+        padding: 0;
+        margin: 0;
+        background-color: #444444;
+      }
+      .navbar a {
+        padding: 18px 0;
+        border-left: 1px solid #ccc9c9;
+        text-decoration: none;
+        color: white;
+        display: block;
+      }
+      .navbar li:hover,
+      a:hover {
+        background-color: #444444;
+      }
+      .navbar li ul {
+        display: none;
+        height: auto;
+        margin: 0;
+        padding: 0;
+      }
+      .navbar li:hover ul {
+        display: block;
+      }
+      .navbar li ul li {
+        background-color: #444444;
+      }
+      .navbar li ul li a {
+        border-left: 1px solid #444444;
+        border-right: 1px solid #444444;
+        border-top: 1px solid #c9d4d8;
+        border-bottom: 1px solid #444444;
+      }
+      .navbar li ul li a:hover {
+        background-color: #a3a1a1;
+      }
+  
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light be-light">
+      <a class="navbart-brand" href="#">
+        <img src="download.png" width="75%" height="75%" class="d-line-block align-top" alt="">
+      </a>
+
+    
+    
+    <h1>silver oak university</h1>
+    <div id="wrap">
+      <ul class="navbar">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Course</a>
+          <ul>
+            <li>
+              <a href="https://www.w3docs.com/learn-html.html">Learn HTML</a>
+            </li>
+            <li>
+              <a href="https://www.w3docs.com/learn-css.html">Learn CSS</a>
+            </li>
+            <li>
+              <a href="https://www.w3docs.com/learn-javascript.html">Learn JavaScript</a>
+            </li>
+            <li>
+              <a href="https://www.w3docs.com/learn-php.html">Learn PHP</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    </div>
+  </body>
+</html>
