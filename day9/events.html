@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="events.js"></script>
+
+    <style type="text/css">
+        button{cursor: pointer;}
+    </style>
+</head>
+<body>
+    <button onclick="demoOnClick()">Click Event</button>
+    <button  ondblclick="demoOnDblClick()">Double Click</button>
+
+<p>
+    <b>Focus:</b><br/>
+<input type="text"placeholder="Focus Event Demo" id="txtFocus" onfocus="demoOnFocus()"/><hr/>
+<b>Blur:</b><br/>
+<input type="text"placeholder="Blur Event Demo" id="txtBlur" onblur="demoOnBlur()"/><hr/>
+
+<b>keypress:</b><br/>
+<input type="text"placeholder="keypress Event Demo" id="txtkeypress" onkeypress="demoOnkeypress()";/><hr/>
+
+ <b>keyup:</b><br/>
+<input type="text"placeholder="keyup Event Demo" id="txtkeyup" onkeyup="demoOnkeyup()";/><hr/>
+</p>
+</body>
+</html>
