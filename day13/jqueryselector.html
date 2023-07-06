@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+function funct1(){
+  $("#div1").css("background-color","#FA8072");
+$("#div2").css("background-color","#00539c");
+$("#div3").css("background-color","#40E0D0");
+$("li.even").fadeToggle();
+
+
+
+}
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<style>
+  #div1{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+  }
+#div2{
+  background-color: chartreuse;
+  height: 200px;
+    width: 200px;
+}
+#div3{
+  background-color: crimson;
+  height: 200px;
+    width: 200px;
+}
+</style> 
+</head>
+<body>
+
+<h2>Query Selection:Query Selectors for Css </h2>
+<div id="div1" class="div">
+<p>paragraph 1 outside div</p>
+<p>paragraph 2 outside div</p>
+<p>paragraph 3 outside div</p>
+
+   
+   </div>
+   <div id="div2" class="div">
+    <p class="p1">this is paragraph 1</p>
+   <p class="para">this is paragraph 2</p>
+    <p>this is paragraph 3</p>
+    <p class="para">this is paragraph 4</p>
+   </div>
+   <div id="div3">
+    
+    <ul>
+        <li>Item1</li>
+        <li>Item2</li>
+        <li>Item3</li>
+        <li>Item4</li>
+        <li>Item5</li>
+    </ul>
+   </div>
+
+<button onclick="funct1()">Click me!!</button>
+<script src="code.jquery.com_jquery-3.7.0.js"></script>
+
+</body>
+
+</html>

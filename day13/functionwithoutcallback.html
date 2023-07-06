@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function hide without callback</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+
+        $(document).ready(function(){
+        $("button").click(function(){
+          $("p").hide(1000);
+          alert("the data given is now hidden");
+        });
+      });
+
+    </script>
+    <style>
+      button{
+        background-color: darkorange;
+        width: 70px;
+        height: 40px;
+        border-color: black;
+        border-radius: 20px;
+        font-size: medium;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+      button:hover{
+        background-color: rgb(0, 255, 98);
+        color: cadetblue;
+
+      }
+    </style>
+</head>
+<body>
+    <button>hide!!</button>
+    <p>Hello... my name is Aditya.I am 20 years old.</p>
+</body>
+</html>
