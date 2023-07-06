@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> mouse Enter</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <style>
+        img{
+            height: 400px;
+            width: 400px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <img  src="venti-views-cHRDevKFDBw-unsplash copy.jpg" id="img1">
+
+
+   <script>
+    $("document").ready(function()
+    {
+        $("#img1").mouseenter(function(){
+            $("#img1").css("width","700px");
+        });
+        $("#img1").mouseleave(function(){
+            $("#img1").css("width","500px");
+        });
+    });
+   </script>
+      
+
+
+</body>
