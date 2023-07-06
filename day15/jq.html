@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        #div1,#div2,#div3{
+            width: 150px;
+            height: 150px;
+            background-color: crimson;
+        }
+
+        #div4{
+            width: 700px;
+            height: 300px;
+            background-color: crimson;
+        }
+       
+
+    
+    </style>
+  <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">  
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+      <script> $(document).ready(function(){
+   $("#div1").draggable();
+
+$("#div2 p").draggable({
+   containment: "#div2"
+});
+
+$("#div3").draggable({
+   axis: "x"
+});
+
+$("#div4 ").draggable({
+   axis: "y"
+});
+
+})
+   </script>
+
+</head>
+<body>
+    <div id="div1">
+
+        <p>Hello</p>
+
+    </div><hr>
+    <div id="div2">
+        
+        <p>Welcome 1</p>
+
+    </div><hr>
+
+    <div id="div3">
+        
+        <p>Welcome 2</p>
+
+    </div><hr>
+
+    <div id="div4">
+        
+        <p>Welcome 3</p>
+
+    </div><hr>
+    
+</body>
+</html>
